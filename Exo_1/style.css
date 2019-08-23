@@ -1,0 +1,46 @@
+body{
+    color: aliceblue;
+
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: red;
+    }
+    .moyen{
+        display: none;
+    }
+    .grand{
+        display: none;
+    }
+    .petit{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width: 768px){
+    body{
+        background-color: green;
+    }
+    .petit{
+        display: none;
+    }
+    .grand{
+        display: none;
+    }
+    .moyen{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-color:blue;
+    }
+    .petit{
+        display: none;
+    }
+    .moyen{
+        display: none;
+    }
+    .grand{
+        font-size: 20px;
+    }
+}
